@@ -34,9 +34,9 @@
 
 .navbar {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
-  padding: 50px;
+  padding: 50px 8%;
 }
 
 .nav_logo {
@@ -92,10 +92,66 @@
 
 .hero_section {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
+  padding: 0 4% 0 8%;
 }
 
 .hero_title{
-    text-align: center;
+    text-align: left;
+}
+
+.hero_title h3{
+    font-size: 45px;
+    color: var(--dark_2);
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+
+.hero_title h1{
+    font-size: 85px;
+    font-weight: 800;
+    color: var(--dark_1);
+    padding-bottom: 10px;
+}
+
+.hero_title p{
+    color: var(--dark_3);
+    padding-bottom: 20px;
+}
+
+.hero_title button{
+    padding: 10px 30px;
+    margin-right: 20px;
+}
+
+.btn_1{
+    color: var(--white);
+    background-color: var(--orange);
+    border: 1px solid var(--orange);
+    border-radius: 10px;
+}
+
+.btn_1 img{
+    margin-right: 10px;
+    height: 16px;
+    width: 16px;
+    position: relative;
+    top: 3px;
+    
+}
+
+.btn_2{
+    color: var(--orange);
+    background-color: var(--white);
+    border: 1px solid var(--orange);
+    border-radius: 10px;
+}
+
+.btn_2 img{
+    height: 16px;
+    width: 16px;
+    margin-right: 10px;
+    position: relative;
+    top: 3px;
 }
