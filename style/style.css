@@ -155,3 +155,48 @@
     position: relative;
     top: 3px;
 }
+
+.btn_1, .btn_2:hover{
+  cursor: pointer;
+}
+
+/* About Section */
+
+.about{
+  background-color: var(--section_bg);
+  width: 80%;
+  margin: 120px auto 0;
+  padding: 100px 8%;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.about_me{
+  background-color: var(--white);
+  margin: auto;
+  border-radius: 10px;
+}
+
+.about_me h2{
+  color: var(--dark_1);
+  font-size: 35px;
+  font-weight: 700;
+  margin: 20px auto 30px;
+}
+
+.about_me .about_text{
+  color: var(--dark_3);
+  margin: 0 13% 30px;
+}
+
+.info{
+  display: flex;
+  justify-content: space-around;
+  color: var(--dark_3);
+  padding-bottom: 20px;
+}
+
+.info span{
+  color: var(--dark_2);
+  font-weight: 700;
+}
