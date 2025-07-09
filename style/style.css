@@ -24,6 +24,10 @@
 
 .header {
   background-color: var(--section_bg);
+  background-image: url('../images/developer.png'),
+    url('../images/header_bg.png');
+  background-repeat: no-repeat;
+  background-position: bottom left, bottom right;
 }
 
 /* Nav Section */
@@ -42,9 +46,9 @@
   border-radius: 10px;
 }
 
-.nav_logo:hover{
-    cursor: pointer;
-    background-color: var(--dark_5);
+.nav_logo:hover {
+  cursor: pointer;
+  background-color: var(--dark_5);
 }
 
 .nav_list {
@@ -62,8 +66,8 @@
   background-color: var(--orange);
 }
 
-.hire_me:hover{
-    background-color: #f19757;
+.hire_me:hover {
+  background-color: #f19757;
 }
 
 .nav_list li a {
@@ -76,10 +80,22 @@
   color: var(--orange);
 }
 
-.hire_me .hire_text{
-    color: var(--white);
+.hire_me .hire_text {
+  color: var(--white);
 }
 
-.hover:hover{
-    background-color: var(--dark_5);
+.hover:hover {
+  background-color: var(--dark_5);
+}
+
+/* Hero Section */
+
+.hero_section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.hero_title{
+    text-align: center;
 }
