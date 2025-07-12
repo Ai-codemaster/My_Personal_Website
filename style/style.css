@@ -269,42 +269,42 @@
   text-align: left;
 }
 
-.education h2{
+.education h2 {
   color: var(--dark_2);
   font-size: 30px;
   margin-bottom: 30px;
   font-weight: 700;
 }
 
-.education div h3{
+.education div h3 {
   color: var(--dark_2);
   font-size: 25px;
   font-weight: 700;
   margin-bottom: 20px;
 }
 
-.education div span{
+.education div span {
   color: var(--dark_3);
   font-size: 20px;
   font-weight: 600;
   padding-bottom: 20px;
 }
 
-.education div p{
+.education div p {
   color: var(--dark_3);
   font-size: 16px;
   margin-top: 20px;
   padding-right: 5%;
 }
 
-.qualification hr{
+.qualification hr {
   height: 1px;
   border: none;
   background-color: var(--dark_5);
   margin: 30px auto;
 }
 
-.summary button{
+.summary button {
   margin-top: 50px;
   padding: 20px 40px;
   background-color: var(--orange);
@@ -315,7 +315,7 @@
   font-weight: 700;
 }
 
-.summary button img{
+.summary button img {
   width: 20px;
   height: 20px;
   margin-right: 10px;
@@ -323,7 +323,36 @@
   top: 3px;
 }
 
-.summary button:hover{
+.summary button:hover {
   cursor: pointer;
 }
 
+/* Footer Section */
+
+.footer{
+  margin-top: 110px;
+  background-color: var(--section_bg);
+  padding: 130px 10%;
+  display: flex;
+}
+
+.connect, .form{
+  width: 50%;
+}
+
+.connect h2{
+  font-size: 35px;
+  font-weight: 700;
+  color: var(--dark_1);
+  margin-bottom: 20px;
+}
+
+.connect p{
+  font-size: 16px;
+  color: var(--dark_2);
+  margin-bottom: 20px;
+}
+
+.connect div img{
+  margin-right: 10px;
+}
