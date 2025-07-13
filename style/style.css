@@ -356,3 +356,29 @@
 .connect div img{
   margin-right: 10px;
 }
+
+.form{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form input, textarea{
+  padding: 20px 30px;
+  border: 1px solid var(--dark_5);
+  border-radius: 10px;
+}
+
+.form input:focus{
+  border: 1px solid var(--dark_5);
+  outline: none;
+}
+
+.form textarea{
+  height: 100px;
+}
+
+.form textarea:focus{
+  border: 1px solid var(--dark_5);
+  outline: none;
+}
